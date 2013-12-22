@@ -17,4 +17,8 @@ Browser extensions for simpler and more readable Weibo styles.
 
 ## 安装
 - [Chrome](http://lee0741.github.io/readabo/readabo.crx)
-- [Safrai](http://lee0741.github.io/readabo/readabo.safariextz)
+  1. 「设置」
+  2. 「扩展程序」
+  3. 将下载文件拖入到该页面
+- [Safari](http://lee0741.github.io/readabo/readabo.safariextz)
+  - 直接将下载文件拖入到 Safari 窗口即可
