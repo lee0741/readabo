@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Readabo",
+  "description": "Simpler & More Readable Weibo",
+  "version": "1.0",
+  "homepage_url": "http://lee0741.github.io/readabo",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.weibo.com/*"],
+      "js": ["headroom.min.js",
+             "mousetrap.min.js",
+             "inject.js"
+      ],
+      "css": ["readabo.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

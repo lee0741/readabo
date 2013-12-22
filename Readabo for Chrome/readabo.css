@@ -1,0 +1,257 @@
+/*
+ *  Readabo
+ *  
+ *  Simpler & More Readable Weibo Userstyles
+ *  Maked by Steven Lee(@lee0741)
+ *
+ */
+
+
+/*
+ * General
+ */
+
+body {
+  background: #fafafa !important;
+  color: #333 !important;
+}
+
+a {
+  color: #666c6b !important;
+}
+
+a.gn_name {
+  color: white !important;
+}
+
+/*Header*/
+.WB_global_nav, .gn_bg {
+  background: black !important;
+  box-shadow: 0 !important;
+}
+
+.gn_nav,
+.gn_search .gn_btn {
+  display: none !important;
+}
+
+.gn_search {
+  margin-left: 324px !important;
+  border-radius: 2px !important;
+}
+
+.headroom {
+  -webkit-animation-duration: .5s !important;
+  -webkit-animation-fill-mode: both !important;
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-4em)
+  }
+
+  100% {
+    -webkit-transform: translateY(0)
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(0)
+  }
+
+  100% {
+    -webkit-transform: translateY(-4em)
+  }
+}
+
+.headroom.headroom--unpinned {
+  -webkit-animation-name: slideUp !important;
+}
+
+.headroom.headroom--pinned {
+  -webkit-animation-name: slideDown !important;
+}
+
+/*Footer*/
+.footer_adv, .global_footer {
+  display: none !important;
+}
+
+/*Background*/
+.W_miniblog,
+.W_miniblog_fb,
+.W_main_a,
+.W_main_bg {
+  background: #fafafa !important;
+} 
+
+
+
+/*
+ *Index Page
+ */
+
+.W_main_c {
+  width: 830px !important;
+  padding-top: 0 !important;
+}
+
+/*Publish Zone*/
+.send_weibo .arrow,
+.send_weibo .title_area,
+#pl_content_biztips {
+  display: none !important;
+}
+
+.send_weibo .func_area {
+  -webkit-transition-delay: 0.5s !important;
+  -webkit-transition-duration: 0.2s !important;
+  -webkit-transition-property: opacity !important;
+  -webkit-transition-timing-function: ease-in !important;
+  opacity: 0 !important; 
+}
+
+.send_weibo:hover .func_area {
+  opacity: 1 !important;
+}
+
+/*Feed*/
+.WB_screen {
+  margin-left: 774px !important;
+}
+
+.WB_sonFeed .WB_screen {
+  margin-left: 689px !important;
+}
+
+.WB_text {
+  font-size: 15px !important;
+  line-height: 24px !important;
+}
+
+.WB_text em {
+  font-size: 13px !important;
+  line-height: 21px !important;
+}
+
+.WB_sonFeed .WB_text {
+  font-size: 13px !important;
+  line-height: 21px !important;
+}
+
+div[node-type="feed_list_recommend"] {
+  display: none !important;
+}
+
+fieldset.S_line2.between_line {
+  display: none !important;
+}
+
+div.WB_feed_datail.S_line2.clearfix {
+  border-style: none !important;
+  padding-bottom: 35px !important;
+}
+
+div.WB_feed_type.SW_fun.S_line2.WB_feed_new {
+  padding-top: 0 !important;
+}
+
+div[node-type="feed_spread"],
+.type_spe {
+  display: none !important; /*Promotion*/
+}
+
+div.WB_media_expand.SW_fun2.S_line1.S_bg1 {
+  background-color: #f2f2f2 !important;
+  border-style: solid !important;
+  border-color: #e3efea !important;
+  border-width: 1px !important;
+}
+
+.repeat .WB_arrow * {
+  font-size: 0 !important;
+}
+
+.WB_arrow .S_line1_c {
+  color: #e3efea !important;
+}
+
+.WB_arrow .S_bg1_c {
+  color: #f2f2f2 !important;
+}
+
+.S_line1 {
+  border-color: #e3efea !important;
+}
+
+/*Left Bar*/
+.W_main_l {
+  padding-top: 0 !important;
+}
+
+.W_main_l, #pl_leftnav_common + div {
+  background: #fafafa !important;
+}
+
+#pl_leftnav_app {
+  display: none !important;
+}
+
+.WB_left_nav .lev a:hover {
+  background-color: #e6eceb !important; 
+}
+
+/*Right Bar*/
+#Box_right, .group_read {
+  display: none !important;
+}
+
+/*Scroll*/
+a.W_gotop,
+a.W_gotop span{
+  border-color: #f2f2f2 !important;
+}
+
+
+
+/*
+ * Profile Page
+ */
+ .B_profile #Pl_Official_MyMicroworld__3, 
+ .B_profile #Pl_Core_LeftPicText__5, 
+ .B_profile #Pl_Core_LeftPicText__6, 
+ .B_profile #Pl_Core_LeftPicText__7, 
+ .B_profile .W_main_2r,
+ .B_profile .W_tabarrow {
+  display: none !important;
+}
+
+#Pl_Core_Nav__2 .PRF_tab_noicon {
+  border-bottom-color: #f2f2f2 !important;    
+}
+
+#Pl_Core_Nav__2 li a {
+  background: #fafafa !important;
+  border: none !important;
+}
+
+#Pl_Core_Nav__2 .current {
+  background: #f2f2f2 !important;
+}
+
+.tab_radious ul {
+  border-bottom-color: #e3efea !important;    
+}
+
+
+
+/*
+ * Skins
+ */
+
+.W_miniblog {
+  padding-top: 60px !important;
+}
+
+
