@@ -15,10 +15,14 @@ Browser extensions for simpler and more readable Weibo styles.
 	- `g` `a` 跳转到 @ 页面
 	- `g` `m` 跳转到私信页面
 
+## 下载
+- [Chrome 插件下载](http://lee0741.github.io/readabo/readabo.crx)
+- [Safari 插件下载](http://lee0741.github.io/readabo/readabo.safariextz)
+
 ## 安装
-- [Chrome](http://lee0741.github.io/readabo/readabo.crx)
+- Chrome
   1. 「设置」
   2. 「扩展程序」
   3. 将下载文件拖入到该页面
-- [Safari](http://lee0741.github.io/readabo/readabo.safariextz)
+- Safari
   - 直接将下载文件拖入到 Safari 窗口即可
